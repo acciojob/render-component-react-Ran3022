@@ -1,11 +1,14 @@
 import React, {Component, useState} from "react";
 import '../styles/App.css';
+import TextComponent from './render';
 
 const App = () => {
   return (
-    <div id="main"></div>
+    <div id="main">
+      <TextComponent/>
+    </div>
   )
 }
 
 
-export default App;
+ReactDOM.render(<App />, document.getElementById('root'));
