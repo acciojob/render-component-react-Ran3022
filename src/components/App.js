@@ -8,6 +8,8 @@ const App = () => {
     <div id="main">
       <TextComponent/>
     </div>
+    
+
   )
 }
 
