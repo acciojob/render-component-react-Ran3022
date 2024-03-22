@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-const TextComponent = () => {
+const render = () => {
   return (
     <div>
       <p>I am learning React. My life is getting better.</p>
@@ -9,5 +9,6 @@ const TextComponent = () => {
   );
 };
 
-export default TextComponent;
+export default render;
 
+ 

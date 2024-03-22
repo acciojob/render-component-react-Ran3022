@@ -1,12 +1,12 @@
 
 import '../styles/App.css';
 import ReactDOM from 'react-dom';
-import TextComponent from './render';
+import render from './render';
 
 const App = () => {
   return (
     <div id="main">
-      <TextComponent/>
+      <render/>
     </div>
     
 
